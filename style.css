@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);  
+    height: 1200px;
+
+}
+.header{
+    text-align: center;
+}
+.legend{
+    width: 50%;
+    border: 1px solid black;
+   padding-top: 50px;
+    padding-left: 150px;
+    padding-bottom: 50px;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+margin-left: 25%;
+
+}
+.legend form{
+    width: 60%;
+    /* border: 1px solid black; */
+    
+}
+.select{
+    color: #f5f7fa;
+    width: 50%;
+    border: 1px solid black;
+   /* height: 100px; */
+    margin-left: 25%;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+text-align: center;
+background-image: url(./htmlphotos.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+.select form{
+    margin-top: 70px;
+   margin-bottom: 50px;
+}
+.select form select{
+   width: 20%;
+   height: 30px;
+   border-radius: 5px;
+}
+.select form select option:nth-child(3n-2){
+    color: blue;
+}
+.select form select option:nth-child(3n-1){
+    color: red;
+}
+.select form select option:nth-child(3n){
+    color: green;
+}
